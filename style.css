@@ -121,3 +121,53 @@
 .img2{
     margin: 51px 300px;
 }
+.txt4 h2{
+    font-size:30px ;
+}
+.txt4 p{
+    font-size: 20px;
+}
+.txt4{
+    margin: 0px 173px;
+}
+.profile-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 0px 550px;
+  }
+  
+  .profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .profile-details h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .profile-role {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0 10px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px dashed #ccc;
+    margin: 10px 0;
+  }
+  
+  .profile-description {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+  }
