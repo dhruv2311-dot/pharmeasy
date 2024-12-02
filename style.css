@@ -44,7 +44,7 @@
     line-height: 1.6;
   }
   
-  .apply-button {
+  #apply-button {
     background-color: #007b7f;
     color: #fff;
     border: none;
@@ -55,11 +55,11 @@
     display: inline-flex;
     align-items: center;
   }
-  .apply-button:hover{
+  #apply-button:hover{
     background-color: aqua;
   }
   
-  .apply-button::after {
+  #apply-button::after {
     content: "➔";
     margin-left: 10px;
   }
@@ -228,4 +228,14 @@
   
   .icons a:hover {
     color: #00574b;
+  }
+  .data{
+    margin: 45px 590px;
+  }
+  .form{
+    margin: 0px 579px;
+   
+  }
+  .form input{
+    padding: 0px 20px;
   }

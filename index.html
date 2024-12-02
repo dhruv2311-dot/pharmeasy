@@ -19,7 +19,7 @@
     <div class="container">
         <h2>Come work with us</h2>
         <p>And together we will revolutionize the Indian healthcare industry.</p>
-        <button class="apply-button">Start Applying </button>
+        <button id="apply-button">Start Applying </button>
     </div>
 
     <div class="text">
@@ -100,7 +100,7 @@
     <div class="container">
         <h2>Come work with us</h2>
         <p>And together we will revolutionize the Indian healthcare industry.</p>
-        <button class="apply-button">Start Applying </button>
+        <button id="apply-button">Start Applying </button>
     </div>
     <div class="bottom">
         <div class="bottom-logo">
@@ -124,6 +124,38 @@
             </div>
         </div>
     </div>
+    <div class="data">
+        <h2>Give me your information</h2>
+    </div>
+    <div class="form">
+        <form id="myform" action="">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"><br>
+            <button type="submit">submit</button>
+        </form>
+       
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded",()=>{
+            const form=document.getElementById("myform")
+      
+        form.addEventListener("submit",(event)=>{
+            event.preventDefault();
+       
+        const name=document.getElementById("name")
+        const email=document.getElementById("email")
+        const namevalue=name.value;
+        const emailvalue=email.value;
+        localStorage.setItem("formdata",namevalue)
+        localStorage.setItem("formdata",emailvalue)
+        window.location.href = "secondPage.html";
+    });
+});
+       
+     
+    </script>
 </body>
 
 </html>
