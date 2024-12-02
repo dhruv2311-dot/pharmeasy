@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    background-color: #10847e;
+    margin: 0px 0px;
+    height: 70px;
+}
+.logo img{
+    height: 30px;
+    width: 120px;
+    margin: 20px 170px;
+}
